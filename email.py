@@ -124,7 +124,7 @@ def send_review():
 
 def disable_review_prompt():
     with open(DO_NOT_SHOW_FILE, "w") as f:
-        f.write("do_not_show")
+        f.write("delete this file to disable the review box?")
     close_all_windows()
 
 def close_all_windows():
